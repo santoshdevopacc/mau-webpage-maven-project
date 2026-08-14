@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Makeover by sangeetha</title>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Lato:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', Arial, sans-serif;
+      background: #fdf3f8;
+      color: #68405E;
+    }
+    header {
+      background: linear-gradient(75deg, #d85a90 40%, #efd9ee 100%);
+      padding: 32px 0;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4.12em;
+      margin-bottom: 8px;
+    }
+    header p1 {
+      font-size: 2.6em;
+    }
+    }
+    header p {
+      font-size: 1.8em;
+    }
+    .slideshow-container {
+      max-width: 425px;
+      position: relative;
+      margin: 48px auto 16px auto;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(216,90,144,0.10);
+      background: #fff;
+    }
+    .mySlides {
+      display: none;
+      width: 100%;
+      height: 430px;
+    }
+    .mySlides img {
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+    .slideshow-dots {
+      text-align: center;
+      background: none;
+      padding: 12px 0;
+    }
+    .dot {
+      cursor: pointer;
+      height: 16px;
+      width: 16px;
+      margin: 0 4px;
+      background-color: #efd9ee;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.25s;
+      border: 2px solid #d85a90;
+    }
+    .active-dot {
+      background-color: #d85a90;
+    }
+    .middle-section {
+      max-width: 710px;
+      margin: 48px auto;
+      text-align: center;
+      background: #fff;
+      box-shadow: 0 2px 12px rgba(216,90,144,0.10);
+      padding: 40px 20px;
+      border-radius: 18px;
+    }
+    .middle-section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      color: #d85a90;
+      margin-bottom: 12px;
+    }
+    .middle-section p {
+      font-size: 1.16em;
+      margin-bottom: 22px;
+    }
+    .btn {
+      background: #d85a90;
+      color: #fff;
+      padding: 16px 42px;
+      border-radius: 36px;
+      font-weight: bold;
+      border: none;
+      font-size: 1.18em;
+      transition: background 0.2s;
+      cursor: pointer;
+      margin-top: 12px;
+    }
+    .btn:hover {
+      background: #68405E;
+    }
+    .phone-number {
+      display: none;
+      margin-top: 22px;
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #d85a90;
+    }
+     section.gallery {
+      max-width: 1000px;
+      margin: 60px auto 40px auto;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 30px;
+    }
+    section.gallery img {
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+      border-radius: 15px;
+      box-shadow: 0 2px 12px rgba(216,90,144,0.13);
+      transition: transform 0.2s;
+    }
+    section.gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background: #efd9ee;
+      padding: 30px 0;
+      text-align: center;
+      color: #d85a90;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>MAKEOVER     BY    SANGEETHA</h1>
+  <p1>Sahasra Makeovers</p1>
+  <p>Certified professional makeup artist will unleash your inner glow with professional makeup services with top cosmetics.</p>
+</header>
+
+<div class="slideshow-container">
+  <div class="mySlides"><img src="https://lh3.googleusercontent.com/p/AF1QipMmSciZqHRWYbBJdgsRoF3a6AnaOOBAGLEWZgUX=s1360-w1360-h1020-rw"></div>
+ <!-- <div class="mySlides"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=850&q=80" alt="Brushes and palette"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=850&q=80" alt="Artist at work"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1512446733611-9099a092eecd?auto=format&fit=crop&w=850&q=80" alt="Model with glam makeup"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=850&q=80" alt="Bold liner look"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?auto=format&fit=crop&w=850&q=80" alt="Soft skin makeup"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=850&q=80" alt="Natural beauty"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=850&q=80" alt="Dramatic eye shadow"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=850&q=80" alt="Artistic makeup"></div>
+  <div class="mySlides"><img src="https://images.unsplash.com/photo-1517926112627-fc1e0ec8b13f?auto=format&fit=crop&w=850&q=80" alt="Floral accent makeup"></div>
+-->
+  <div class="slideshow-dots">
+    <span class="dot" onclick="showSlide(0)"></span>
+    <span class="dot" onclick="showSlide(1)"></span>
+    <span class="dot" onclick="showSlide(2)"></span>
+    <span class="dot" onclick="showSlide(3)"></span>
+    <span class="dot" onclick="showSlide(4)"></span>
+    <span class="dot" onclick="showSlide(5)"></span>
+    <span class="dot" onclick="showSlide(6)"></span>
+    <span class="dot" onclick="showSlide(7)"></span>
+    <span class="dot" onclick="showSlide(8)"></span>
+    <span class="dot" onclick="showSlide(9)"></span>
+  </div>
+</div>
+
+<div class="middle-section">
+  <h2>Our Services</h2>
+  <p>
+    At Radiant Makeup Artistry, expert artists provide tailored makeup for weddings, parties, editorial shoots, and personal styling.<br>
+    Services include bridal makeup, party glam, natural everyday looks, dramatic creative styles, and skin-focused beauty consultations.<br>
+    Only top-tier products and the latest techniques are used for flawless, long-lasting effects. Every consultation begins with a custom skin assessment for a safe, stunning transformation perfectly matched to client preferences.<br>
+    Radiant Makeup also offers on-location styling, group packages for events, and private lessons to help individuals elevate their self-application skills.
+  </p>
+  <button class="btn" onclick="document.getElementById('phoneNum').style.display='block';">Book Consultation</button>
+  <div id="phoneNum" class="phone-number">Mobile: +91-7075450525</div>
+</div>
+
+<section class="gallery">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsLMp-yFv0vBL8UVSEg67a-3s4ICzgsZsLlG-rQ8b-Eg&s" alt="Makeup brushes and palette">
+  <img src="https://lh3.googleusercontent.com/p/AF1QipNAqGlrFewdGVfg4nh-TT1mM8HtowNqECKBkzuO=s1360-w1360-h1020-rw" alt="Model with makeup">
+  <img src="https://lh3.googleusercontent.com/p/AF1QipMrC9W6ClRntxB9j29obR04FAFSNcDrAMeSybiX=s1360-w1360-h1020-rw" alt="Makeup products on table">
+</section>
+
+<footer>
+  &copy; 2020 Sahasra Makeup Studio. All rights reserved. | <a href="mailto:info@glowupmakeup.com" style="color:#d85a90;text-decoration:underline;">Contact Us +91-7075450525</a>
+</footer>
+
+<script>
+  const slides = document.getElementsByClassName('mySlides');
+  const dots = document.getElementsByClassName('dot');
+  let slideIndex = 0;
+
+  function showSlide(n) {
+    slideIndex = n;
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+      dots[i].classList.remove('active-dot');
+    }
+    slides[slideIndex].style.display = 'block';
+    dots[slideIndex].classList.add('active-dot');
+  }
+
+  function autoShowSlides() {
+    slideIndex = (slideIndex + 1) % slides.length;
+    showSlide(slideIndex);
+    setTimeout(autoShowSlides, 2800); // Change image every 2.8 seconds
+  }
+  showSlide(slideIndex);
+  setTimeout(autoShowSlides, 2800);
+</script>
+</body>
+</html>
+
